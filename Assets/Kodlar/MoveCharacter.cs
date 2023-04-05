@@ -23,9 +23,9 @@ public class MoveCharacter : MonoBehaviour
         }
 
         if(Input.GetKey(KeyCode.W) && gameObject.name== "Main Camera") 
-        { transform.position += new Vector3(0, 0, 10) * Time.deltaTime; }
+        { transform.position += new Vector3(0, 0, 3) * Time.deltaTime; }
 
         if (Input.GetKey(KeyCode.S) && gameObject.name == "Main Camera")
-        { transform.position += new Vector3(0, 0, -10) * Time.deltaTime; }
+        { transform.position += new Vector3(0, 0, -3) * Time.deltaTime; }
     }
 }
